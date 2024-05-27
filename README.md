@@ -58,6 +58,17 @@ Performs rigid motion correction of the time series.
 
 ```
 tembackg.m
+
+% Inputs:
+%
+% proj: projected image
+% rad: radius
+% n: number of background pixels
+% __________________________________
+% Outputs:
+%
+% bgt_init: matrix containing background pixel coordinates; dimension 1: coordinates, 2/3: xy position in projected image
+
 ```
 Determine darkest pixels within a given radius of each pixel, which will be used for temporal background estimation;
 apply for example to 95th percentile projection of your data: myprctile2D(data,95,dim).
