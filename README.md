@@ -39,7 +39,7 @@ Calculates a local correlation matrix across time intervals.
 
 
 ```
-ROIdetect.m
+flexROIdetect.m
 ```
 Detects regions of interest (ROIs) based on correlation-based seeding, adaptive thresholding and expansion.
 No assumptions are made regarding the temporal or spatial footprints of the ROIs, but ROIs of size <= 1 pixel are disregarded (comment the last paragraph to switch this feature off).
